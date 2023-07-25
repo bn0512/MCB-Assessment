@@ -809,6 +809,12 @@
       <change beforePath="$PROJECT_DIR$/../ace-subs-api/target/classes/db-migration/postgresql/V7__master.sql" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../ace-subs-api/target/classes/db-migration/postgresql/V8__master.sql" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../ace-subs-api/target/classes/db-migration/postgresql/V9__master.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/fileDb.mv.db" beforeDir="false" afterPath="$PROJECT_DIR$/data/fileDb.mv.db" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/gen/eChannel/verification/EventSourceControllerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/gen/eChannel/verification/EventSourceControllerTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/gen/eChannel/verification/EventSourceRepoTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/gen/eChannel/verification/EventSourceRepoTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/gen/eChannel/verification/EventSourceServiceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/gen/eChannel/verification/EventSourceServiceTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -824,7 +830,7 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -838,7 +844,7 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "last_opened_file_path": "D:/MCB Assigment/mcb-api-service/mcb-demo-apis/src/test/java/com/gen/eChannel/verification",
+    "last_opened_file_path": "D:/Assessment Code/MCB-Assessment/mcb-api-service/mcb-demo-apis",
     "project.structure.last.edited": "Problems",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
@@ -861,21 +867,8 @@
       <recent name="com.gen.eChannel.verification.services" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.EChannelVerificationApplication">
-    <configuration name="EChannelVerificationApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.gen.eChannel.verification.EChannelVerificationApplication" />
-      <module name="mcb-demo-apis" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.gen.eChannel.verification.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="EventSourceControllerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.EventSourceRepoTest">
+    <configuration name="EventSourceRepoTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="mcb-demo-apis" />
       <extension name="coverage">
         <pattern>
@@ -884,13 +877,13 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.gen.eChannel.verification" />
-      <option name="MAIN_CLASS_NAME" value="com.gen.eChannel.verification.EventSourceControllerTest" />
+      <option name="MAIN_CLASS_NAME" value="com.gen.eChannel.verification.EventSourceRepoTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="EventSourceControllerTest.shouldCreateEventSource" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="EventSourceRepoTest.shouldCountByStatusName" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="mcb-demo-apis" />
       <extension name="coverage">
         <pattern>
@@ -899,14 +892,14 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.gen.eChannel.verification" />
-      <option name="MAIN_CLASS_NAME" value="com.gen.eChannel.verification.EventSourceControllerTest" />
-      <option name="METHOD_NAME" value="shouldCreateEventSource" />
+      <option name="MAIN_CLASS_NAME" value="com.gen.eChannel.verification.EventSourceRepoTest" />
+      <option name="METHOD_NAME" value="shouldCountByStatusName" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="EventSourceControllerTest.shouldGetAssignedEvents" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="EventSourceRepoTest.shouldFindByStatus" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="mcb-demo-apis" />
       <extension name="coverage">
         <pattern>
@@ -915,14 +908,14 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.gen.eChannel.verification" />
-      <option name="MAIN_CLASS_NAME" value="com.gen.eChannel.verification.EventSourceControllerTest" />
-      <option name="METHOD_NAME" value="shouldGetAssignedEvents" />
+      <option name="MAIN_CLASS_NAME" value="com.gen.eChannel.verification.EventSourceRepoTest" />
+      <option name="METHOD_NAME" value="shouldFindByStatus" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="EventSourceControllerTest.shouldUpdateEventSources" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="EventSourceRepoTest.shouldFindByUserIsNotNull" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="mcb-demo-apis" />
       <extension name="coverage">
         <pattern>
@@ -931,9 +924,24 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.gen.eChannel.verification" />
-      <option name="MAIN_CLASS_NAME" value="com.gen.eChannel.verification.EventSourceControllerTest" />
-      <option name="METHOD_NAME" value="shouldUpdateEventSources" />
+      <option name="MAIN_CLASS_NAME" value="com.gen.eChannel.verification.EventSourceRepoTest" />
+      <option name="METHOD_NAME" value="shouldFindByUserIsNotNull" />
       <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="EventSourceServiceTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="mcb-demo-apis" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.gen.eChannel.verification.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.gen.eChannel.verification" />
+      <option name="MAIN_CLASS_NAME" value="com.gen.eChannel.verification.EventSourceServiceTest" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -953,11 +961,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.EChannelVerificationApplication" />
-        <item itemvalue="JUnit.EventSourceControllerTest.shouldCreateEventSource" />
-        <item itemvalue="JUnit.EventSourceControllerTest.shouldUpdateEventSources" />
-        <item itemvalue="JUnit.EventSourceControllerTest" />
-        <item itemvalue="JUnit.EventSourceControllerTest.shouldGetAssignedEvents" />
+        <item itemvalue="JUnit.EventSourceRepoTest" />
+        <item itemvalue="JUnit.EventSourceRepoTest.shouldFindByUserIsNotNull" />
+        <item itemvalue="JUnit.EventSourceRepoTest.shouldCountByStatusName" />
+        <item itemvalue="JUnit.EventSourceRepoTest.shouldFindByStatus" />
+        <item itemvalue="JUnit.EventSourceServiceTest" />
       </list>
     </recent_temporary>
   </component>
